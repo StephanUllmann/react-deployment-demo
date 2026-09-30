@@ -51,7 +51,7 @@ function App() {
           <button
             disabled={status === 'loading'}
             onClick={() => loadPage(page.previous)}
-            className='border rounded px-5 py-3 disabled:bg-red-500'
+            className='border rounded px-5 py-3 disabled:bg-red-500/20'
             type='button'
           >
             Previous
@@ -63,7 +63,7 @@ function App() {
             onClick={() => {
               loadPage(page.next);
             }}
-            className='border rounded px-5 py-3 disabled:bg-red-500'
+            className='border rounded px-5 py-3 disabled:bg-red-500/20'
             type='button'
           >
             Next
